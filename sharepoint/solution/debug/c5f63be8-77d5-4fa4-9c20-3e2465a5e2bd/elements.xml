@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ModernAppInsights"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="8c39d8f8-036c-4d2f-9796-c1cfdb966fcb"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

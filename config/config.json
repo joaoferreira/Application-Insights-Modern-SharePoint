@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "modern-app-insights-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/modernAppInsights/ModernAppInsightsApplicationCustomizer.js",
+          "manifest": "./src/extensions/modernAppInsights/ModernAppInsightsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ModernAppInsightsApplicationCustomizerStrings": "lib/extensions/modernAppInsights/loc/{locale}.js"
+  }
+}
